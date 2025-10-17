@@ -6,6 +6,7 @@ import { FaqsGrid } from "@/components/ui/Faqgrid";
 import { FaqsAccordion } from "@/components/ui/FAQs";
 import { FooterComplex } from "@/components/ui/footer";
 import { SparklesCore } from "@/components/ui/sparkles";
+import SocialSelector from "@/components/ui/SocialSelector";
 
 
 
@@ -20,7 +21,7 @@ export default function WhatWeDo() {
         <StatsCards />
         <StatsGrid />
         <FooterComplex />
-
+        <SocialSelector />
         <FaqsAccordion />
         <FaqsGrid />
        
