@@ -7,6 +7,8 @@ import { FaqsAccordion } from "@/components/ui/FAQs";
 import { FooterComplex } from "@/components/ui/footer";
 import { SparklesCore } from "@/components/ui/sparkles";
 import SocialSelector from "@/components/ui/SocialSelector";
+import AppDownloadStack from "@/components/smoothui/ui/AppDownloadStack";
+import AppleInvites from "@/components/smoothui/ui/AppleInvites";
 
 
 
@@ -16,8 +18,11 @@ export default function WhatWeDo() {
 
     return(
         <>
+
         <HeroHeader />
         <SparklesPreview />
+     <AppDownloadStack />
+        {/* <AppleInvites /> */}
         <StatsCards />
         <StatsGrid />
         <FooterComplex />
